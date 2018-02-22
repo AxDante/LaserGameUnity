@@ -1,0 +1,204 @@
+{
+	"properties":[
+		{
+			"maxBounces": 200,
+			"defaultMode": 0,
+			"sandboxModeBoardSize": [7, 7]
+		}
+	],
+
+	"levels":[
+		{
+			"level": 1,
+			"boardSize": [9, 11],
+			"gameBoardItems":[
+				{
+					"type": "Start",
+					"color": ["Red"],
+					"location": [2, 0], 
+					"direction": ["CR"]
+				},
+				{
+					"type": "Goal",
+					"color": ["Red"],
+					"location": [5, 5],
+					"direction": ["T"]
+				}
+			],
+			"avaliableItems":[
+				{
+					"type": "Mirror",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"level": 2,
+			"boardSize": [7, 7],
+			"gameBoardItems":[
+				{
+					"type": "Start",
+					"color": ["Red"],
+					"location": [2, 0], 
+					"direction": ["CR"]
+				},
+				{
+					"type": "Goal",
+					"color": ["Red"],
+					"location": [5, 5],
+					"direction": ["T"]
+				},
+				{
+					"type": "Blackbody",
+					"color": [
+						null,
+						null,
+						null
+					],
+					"location": [
+						2, 2,
+						5, 1,
+						3, 5
+					],
+					"direction": [
+						null,
+						null,
+						null
+					],
+				}
+
+			],
+			"avaliableItems":[
+				{
+					"type": "Mirror",
+					"quantity": 3
+				},
+				{
+					"type": "Blackbody",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"boardSize": [6, 5],
+			"gameBoardItems":[
+				{
+					"type": "Start",
+					"color": ["Red"],
+					"location": [4, 4], 
+					"direction": ["RT"]
+				},
+				{
+					"type": "Goal",
+					"color": ["Red"],
+					"location": [5, 4],
+					"direction": ["L"]
+				},
+				{
+					"type": "Blackbody",
+					"color": [
+						null,
+						null,
+						null,
+						null
+					],
+					"location": [
+						5, 1,
+						2, 2,
+						4, 1,
+						0, 1
+					],
+					"direction": [
+						null,
+						null,
+						null,
+						null
+					],
+				},
+				{
+					"type": "MirrorBlock",
+					"color": [
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"location": [
+						0, 2,
+						0, 3,
+						1, 4,
+						2, 0,
+						3, 0
+					],
+					"direction": [
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+				}
+
+			],
+			"avaliableItems":[
+				{
+					"type": "Glass",
+					"quantity": 4
+				}
+			]
+		},
+		{
+			"level": 4,
+			"boardSize": [6, 5],
+			"gameBoardItems":[
+				{
+					"type": "Start",
+					"color": ["Red"],
+					"location": [4, 4], 
+					"direction": ["RT"]
+				},
+				{
+					"type": "Goal",
+					"color": ["Red"],
+					"location": [5, 4],
+					"direction": ["L"]
+				},
+				{
+					"type": "Blackbody",
+					"location": [
+						5, 1,
+						4, 1,
+						0, 1
+					],
+				},
+				{
+					"type": "MirrorBlock",
+					"location": [
+						0, 2,
+						0, 3,
+						2, 2,
+						1, 4,
+						2, 0,
+						3, 0
+					],
+				},
+				{
+					"type": "Invalid",
+					"location": [
+						5, 2,
+						0, 4
+					],
+				}
+
+			],
+			"avaliableItems":[
+				{
+					"type": "Glass",
+					"quantity": 4
+				}
+			]
+		}
+	]
+}

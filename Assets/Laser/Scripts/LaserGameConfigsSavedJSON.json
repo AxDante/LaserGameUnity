@@ -1,0 +1,223 @@
+{
+    "properties": [
+        {
+            "maxBounces": 222,
+            "defaultMode": 0,
+            "sandboxModeBoardSize": [
+                5,
+                9
+            ]
+        }
+    ],
+    "levels": [
+        {
+            "level": 9,
+            "boardSize": [
+                3,
+                7
+            ],
+            "gameBoardItems": [
+                {
+                    "type": "Start",
+                    "color": [],
+                    "location": [
+                        0,
+                        0
+                    ],
+                    "direction": [
+                        "CR"
+                    ]
+                },
+                {
+                    "type": "Goal",
+                    "color": [],
+                    "location": [
+                        1,
+                        5
+                    ],
+                    "direction": [
+                        "B"
+                    ]
+                },
+                {
+                    "type": "Glass",
+                    "color": [],
+                    "location": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "direction": []
+                },
+                {
+                    "type": "Mirror",
+                    "color": [],
+                    "location": [
+                        0,
+                        3,
+                        2,
+                        3
+                    ],
+                    "direction": [
+                        "TR",
+                        "BR"
+                    ]
+                },
+                {
+                    "type": "MirrorBlock",
+                    "color": [],
+                    "location": [],
+                    "direction": []
+                },
+                {
+                    "type": "Blackbody",
+                    "color": [],
+                    "location": [
+                        1,
+                        4
+                    ],
+                    "direction": []
+                },
+                {
+                    "type": "Invalid",
+                    "color": [],
+                    "location": [],
+                    "direction": []
+                }
+            ],
+            "availableItems": [
+                {
+                    "type": "Glass",
+                    "quantity": 0
+                },
+                {
+                    "type": "Mirror",
+                    "quantity": 0
+                },
+                {
+                    "type": "MirrorBlock",
+                    "quantity": 0
+                },
+                {
+                    "type": "Blackbody",
+                    "quantity": 0
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "boardSize": [
+                6,
+                7
+            ],
+            "gameBoardItems": [
+                {
+                    "type": "Start",
+                    "color": [],
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": [
+                        "RT"
+                    ]
+                },
+                {
+                    "type": "Goal",
+                    "color": [],
+                    "location": [
+                        4,
+                        6
+                    ],
+                    "direction": [
+                        "R"
+                    ]
+                },
+                {
+                    "type": "Glass",
+                    "color": [],
+                    "location": [
+                        3,
+                        3,
+                        4,
+                        3
+                    ],
+                    "direction": []
+                },
+                {
+                    "type": "Mirror",
+                    "color": [],
+                    "location": [
+                        3,
+                        1,
+                        5,
+                        3,
+                        5,
+                        4
+                    ],
+                    "direction": [
+                        "TR",
+                        "BR",
+                        "TR"
+                    ]
+                },
+                {
+                    "type": "MirrorBlock",
+                    "color": [],
+                    "location": [
+                        0,
+                        2,
+                        0,
+                        3,
+                        2,
+                        1,
+                        4,
+                        5
+                    ],
+                    "direction": []
+                },
+                {
+                    "type": "Blackbody",
+                    "color": [],
+                    "location": [
+                        0,
+                        6,
+                        1,
+                        5
+                    ],
+                    "direction": []
+                },
+                {
+                    "type": "Invalid",
+                    "color": [],
+                    "location": [
+                        4,
+                        0,
+                        5,
+                        2
+                    ],
+                    "direction": []
+                }
+            ],
+            "availableItems": [
+                {
+                    "type": "Glass",
+                    "quantity": 0
+                },
+                {
+                    "type": "Mirror",
+                    "quantity": 0
+                },
+                {
+                    "type": "MirrorBlock",
+                    "quantity": 0
+                },
+                {
+                    "type": "Blackbody",
+                    "quantity": 0
+                }
+            ]
+        }
+    ]
+}

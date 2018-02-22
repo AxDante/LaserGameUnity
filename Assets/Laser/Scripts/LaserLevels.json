@@ -1,0 +1,65 @@
+{
+	"properties":[
+		{"maxBounces": 100}
+	],
+
+	"levels":[
+		{
+			"level": 1,
+			"boardSize": [7, 7],
+			"gameBoardItems":[
+				{
+					"type": "Start",
+					"color": "Red",
+					"location": [2, 0], 
+					"direction": "CR"
+				},
+				{
+					"type": "Goal",
+					"color": "Red",
+					"location": [5, 5],
+					"direction": "CT"
+				}
+			],
+			"avaliableItems":[
+				{
+					"type": "Mirror",
+					"quantity": 1
+				}
+			]
+		},
+		{
+			"level": 2,
+			"boardSize": [7, 7],
+			"gameBoardItems":[
+				{
+					"type": "Start",
+					"color": "Red",
+					"location": [2, 0], 
+					"direction": "CR"
+				},
+				{
+					"type": "Goal",
+					"color": "Red",
+					"location": [5, 5],
+					"direction": "CT"
+				},
+				{
+					"type": "BlackBody",
+					"color": null,
+					"location": [2, 2,
+								 5, 1,
+								 3, 5],
+					"direction": null,
+				}
+
+			],
+			"avaliableItems":[
+				{
+					"type": "Mirror",
+					"quantity": 3
+				}
+			]
+		}
+	]
+}
